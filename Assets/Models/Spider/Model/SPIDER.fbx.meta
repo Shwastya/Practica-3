@@ -1,136 +1,388 @@
 fileFormatVersion: 2
 guid: 130cac6b96af6214296215324b5da188
-timeCreated: 18446744011573954816
 ModelImporter:
-  serializedVersion: 21
-  fileIDToRecycleName:
-    100000: Armature
-    100002: Bone_003
-    100004: Bone_004
-    100006: Head
-    100008: IKnoga_001_L
-    100010: IKnoga_001_R
-    100012: IKnoga_002_L
-    100014: IKnoga_002_R
-    100016: IKnoga_003_L
-    100018: IKnoga_003_R
-    100020: IKnoga_L
-    100022: IKnoga_R
-    100024: IKzub_L
-    100026: IKzub_R
-    100028: Master
-    100030: Mesh
-    100032: nogaA_001_L
-    100034: nogaA_001_R
-    100036: nogaA_002_L
-    100038: nogaA_002_R
-    100040: nogaA_003_L
-    100042: nogaA_003_R
-    100044: nogaA_L
-    100046: nogaA_R
-    100048: nogaB_001_L
-    100050: nogaB_001_R
-    100052: nogaB_002_L
-    100054: nogaB_002_R
-    100056: nogaB_003_L
-    100058: nogaB_003_R
-    100060: nogaB_L
-    100062: nogaB_R
-    100064: nogaC_001_L
-    100066: nogaC_001_R
-    100068: nogaC_002_L
-    100070: nogaC_002_R
-    100072: nogaC_003_L
-    100074: nogaC_003_R
-    100076: nogaC_L
-    100078: nogaC_R
-    100080: nogaD_001_L
-    100082: nogaD_001_R
-    100084: nogaD_002_L
-    100086: nogaD_002_R
-    100088: nogaD_003_L
-    100090: nogaD_003_R
-    100092: nogaD_L
-    100094: nogaD_R
-    100096: Sheya
-    100098: //RootNode
-    100100: Thorso
-    100102: zubA_L
-    100104: zubA_R
-    100106: zubB_L
-    100108: zubB_R
-    400000: Armature
-    400002: Bone_003
-    400004: Bone_004
-    400006: Head
-    400008: IKnoga_001_L
-    400010: IKnoga_001_R
-    400012: IKnoga_002_L
-    400014: IKnoga_002_R
-    400016: IKnoga_003_L
-    400018: IKnoga_003_R
-    400020: IKnoga_L
-    400022: IKnoga_R
-    400024: IKzub_L
-    400026: IKzub_R
-    400028: Master
-    400030: Mesh
-    400032: nogaA_001_L
-    400034: nogaA_001_R
-    400036: nogaA_002_L
-    400038: nogaA_002_R
-    400040: nogaA_003_L
-    400042: nogaA_003_R
-    400044: nogaA_L
-    400046: nogaA_R
-    400048: nogaB_001_L
-    400050: nogaB_001_R
-    400052: nogaB_002_L
-    400054: nogaB_002_R
-    400056: nogaB_003_L
-    400058: nogaB_003_R
-    400060: nogaB_L
-    400062: nogaB_R
-    400064: nogaC_001_L
-    400066: nogaC_001_R
-    400068: nogaC_002_L
-    400070: nogaC_002_R
-    400072: nogaC_003_L
-    400074: nogaC_003_R
-    400076: nogaC_L
-    400078: nogaC_R
-    400080: nogaD_001_L
-    400082: nogaD_001_R
-    400084: nogaD_002_L
-    400086: nogaD_002_R
-    400088: nogaD_003_L
-    400090: nogaD_003_R
-    400092: nogaD_L
-    400094: nogaD_R
-    400096: Sheya
-    400098: //RootNode
-    400100: Thorso
-    400102: zubA_L
-    400104: zubA_R
-    400106: zubB_L
-    400108: zubB_R
-    4300000: Mesh
-    7400000: Take Damage
-    7400002: Attack
-    7400004: Attack_Left
-    7400006: Attack_Right
-    7400008: Death
-    7400010: Idle
-    7400012: Run
-    7400014: Walk
-    7400016: TakeDamage
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Mesh
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Armature
+  - first:
+      1: 100002
+    second: Bone_003
+  - first:
+      1: 100004
+    second: Bone_004
+  - first:
+      1: 100006
+    second: Head
+  - first:
+      1: 100008
+    second: IKnoga_001_L
+  - first:
+      1: 100010
+    second: IKnoga_001_R
+  - first:
+      1: 100012
+    second: IKnoga_002_L
+  - first:
+      1: 100014
+    second: IKnoga_002_R
+  - first:
+      1: 100016
+    second: IKnoga_003_L
+  - first:
+      1: 100018
+    second: IKnoga_003_R
+  - first:
+      1: 100020
+    second: IKnoga_L
+  - first:
+      1: 100022
+    second: IKnoga_R
+  - first:
+      1: 100024
+    second: IKzub_L
+  - first:
+      1: 100026
+    second: IKzub_R
+  - first:
+      1: 100028
+    second: Master
+  - first:
+      1: 100030
+    second: Mesh
+  - first:
+      1: 100032
+    second: nogaA_001_L
+  - first:
+      1: 100034
+    second: nogaA_001_R
+  - first:
+      1: 100036
+    second: nogaA_002_L
+  - first:
+      1: 100038
+    second: nogaA_002_R
+  - first:
+      1: 100040
+    second: nogaA_003_L
+  - first:
+      1: 100042
+    second: nogaA_003_R
+  - first:
+      1: 100044
+    second: nogaA_L
+  - first:
+      1: 100046
+    second: nogaA_R
+  - first:
+      1: 100048
+    second: nogaB_001_L
+  - first:
+      1: 100050
+    second: nogaB_001_R
+  - first:
+      1: 100052
+    second: nogaB_002_L
+  - first:
+      1: 100054
+    second: nogaB_002_R
+  - first:
+      1: 100056
+    second: nogaB_003_L
+  - first:
+      1: 100058
+    second: nogaB_003_R
+  - first:
+      1: 100060
+    second: nogaB_L
+  - first:
+      1: 100062
+    second: nogaB_R
+  - first:
+      1: 100064
+    second: nogaC_001_L
+  - first:
+      1: 100066
+    second: nogaC_001_R
+  - first:
+      1: 100068
+    second: nogaC_002_L
+  - first:
+      1: 100070
+    second: nogaC_002_R
+  - first:
+      1: 100072
+    second: nogaC_003_L
+  - first:
+      1: 100074
+    second: nogaC_003_R
+  - first:
+      1: 100076
+    second: nogaC_L
+  - first:
+      1: 100078
+    second: nogaC_R
+  - first:
+      1: 100080
+    second: nogaD_001_L
+  - first:
+      1: 100082
+    second: nogaD_001_R
+  - first:
+      1: 100084
+    second: nogaD_002_L
+  - first:
+      1: 100086
+    second: nogaD_002_R
+  - first:
+      1: 100088
+    second: nogaD_003_L
+  - first:
+      1: 100090
+    second: nogaD_003_R
+  - first:
+      1: 100092
+    second: nogaD_L
+  - first:
+      1: 100094
+    second: nogaD_R
+  - first:
+      1: 100096
+    second: Sheya
+  - first:
+      1: 100098
+    second: //RootNode
+  - first:
+      1: 100100
+    second: Thorso
+  - first:
+      1: 100102
+    second: zubA_L
+  - first:
+      1: 100104
+    second: zubA_R
+  - first:
+      1: 100106
+    second: zubB_L
+  - first:
+      1: 100108
+    second: zubB_R
+  - first:
+      4: 400000
+    second: Armature
+  - first:
+      4: 400002
+    second: Bone_003
+  - first:
+      4: 400004
+    second: Bone_004
+  - first:
+      4: 400006
+    second: Head
+  - first:
+      4: 400008
+    second: IKnoga_001_L
+  - first:
+      4: 400010
+    second: IKnoga_001_R
+  - first:
+      4: 400012
+    second: IKnoga_002_L
+  - first:
+      4: 400014
+    second: IKnoga_002_R
+  - first:
+      4: 400016
+    second: IKnoga_003_L
+  - first:
+      4: 400018
+    second: IKnoga_003_R
+  - first:
+      4: 400020
+    second: IKnoga_L
+  - first:
+      4: 400022
+    second: IKnoga_R
+  - first:
+      4: 400024
+    second: IKzub_L
+  - first:
+      4: 400026
+    second: IKzub_R
+  - first:
+      4: 400028
+    second: Master
+  - first:
+      4: 400030
+    second: Mesh
+  - first:
+      4: 400032
+    second: nogaA_001_L
+  - first:
+      4: 400034
+    second: nogaA_001_R
+  - first:
+      4: 400036
+    second: nogaA_002_L
+  - first:
+      4: 400038
+    second: nogaA_002_R
+  - first:
+      4: 400040
+    second: nogaA_003_L
+  - first:
+      4: 400042
+    second: nogaA_003_R
+  - first:
+      4: 400044
+    second: nogaA_L
+  - first:
+      4: 400046
+    second: nogaA_R
+  - first:
+      4: 400048
+    second: nogaB_001_L
+  - first:
+      4: 400050
+    second: nogaB_001_R
+  - first:
+      4: 400052
+    second: nogaB_002_L
+  - first:
+      4: 400054
+    second: nogaB_002_R
+  - first:
+      4: 400056
+    second: nogaB_003_L
+  - first:
+      4: 400058
+    second: nogaB_003_R
+  - first:
+      4: 400060
+    second: nogaB_L
+  - first:
+      4: 400062
+    second: nogaB_R
+  - first:
+      4: 400064
+    second: nogaC_001_L
+  - first:
+      4: 400066
+    second: nogaC_001_R
+  - first:
+      4: 400068
+    second: nogaC_002_L
+  - first:
+      4: 400070
+    second: nogaC_002_R
+  - first:
+      4: 400072
+    second: nogaC_003_L
+  - first:
+      4: 400074
+    second: nogaC_003_R
+  - first:
+      4: 400076
+    second: nogaC_L
+  - first:
+      4: 400078
+    second: nogaC_R
+  - first:
+      4: 400080
+    second: nogaD_001_L
+  - first:
+      4: 400082
+    second: nogaD_001_R
+  - first:
+      4: 400084
+    second: nogaD_002_L
+  - first:
+      4: 400086
+    second: nogaD_002_R
+  - first:
+      4: 400088
+    second: nogaD_003_L
+  - first:
+      4: 400090
+    second: nogaD_003_R
+  - first:
+      4: 400092
+    second: nogaD_L
+  - first:
+      4: 400094
+    second: nogaD_R
+  - first:
+      4: 400096
+    second: Sheya
+  - first:
+      4: 400098
+    second: //RootNode
+  - first:
+      4: 400100
+    second: Thorso
+  - first:
+      4: 400102
+    second: zubA_L
+  - first:
+      4: 400104
+    second: zubA_R
+  - first:
+      4: 400106
+    second: zubB_L
+  - first:
+      4: 400108
+    second: zubB_R
+  - first:
+      43: 4300000
+    second: Mesh
+  - first:
+      74: 7400000
+    second: Take Damage
+  - first:
+      74: 7400002
+    second: Attack
+  - first:
+      74: 7400004
+    second: Attack_Left
+  - first:
+      74: 7400006
+    second: Attack_Right
+  - first:
+      74: 7400008
+    second: Death
+  - first:
+      74: 7400010
+    second: Idle
+  - first:
+      74: 7400012
+    second: Run
+  - first:
+      74: 7400014
+    second: Walk
+  - first:
+      74: 7400016
+    second: TakeDamage
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Mesh
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RetopoGroup2_Default__texture_spider_jpg
+    second: {fileID: 2100000, guid: 78d88e566e5f7b14aaa719c52b23bd6c, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -143,6 +395,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -154,6 +408,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack
       takeName: Spider_Attak
+      internalID: 0
       firstFrame: 0
       lastFrame: 35
       wrapMode: 0
@@ -178,36 +433,51 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - serializedVersion: 2
+          - serializedVersion: 3
             time: 0
             value: 0
             inSlope: -0.03937065
             outSlope: -0.03937065
             tangentMode: 0
-          - serializedVersion: 2
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
             time: 0.41594374
             value: 0.048939984
             inSlope: 0.19647512
             outSlope: 0.19647512
             tangentMode: 0
-          - serializedVersion: 2
-            time: 0.6507541
-            value: 0.4986949
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.6520617
+            value: 0.99407816
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - serializedVersion: 2
-            time: 0.73055315
-            value: 0.4832104
-            inSlope: -0.39880157
-            outSlope: -0.39880157
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
+          - serializedVersion: 3
+            time: 0.6667826
+            value: 0.9985038
+            inSlope: 0.000789621
+            outSlope: 0.000789621
             tangentMode: 0
-          - serializedVersion: 2
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.5656305
+          - serializedVersion: 3
             time: 1
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
+            weightedMode: 0
+            inWeight: 0.33333334
+            outWeight: 0.33333334
           preInfinity: 3
           postInfinity: 3
           rotationOrder: 0
@@ -219,6 +489,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack_Left
       takeName: Spider_Attak_Left
+      internalID: 0
       firstFrame: 0
       lastFrame: 34
       wrapMode: 0
@@ -247,6 +518,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Attack_Right
       takeName: Spider_Attak_Right
+      internalID: 0
       firstFrame: 0
       lastFrame: 34
       wrapMode: 0
@@ -275,6 +547,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: Spider_Death
+      internalID: 0
       firstFrame: 0
       lastFrame: 47
       wrapMode: 0
@@ -303,6 +576,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Idle
       takeName: Spider_Idle
+      internalID: 0
       firstFrame: 0
       lastFrame: 59
       wrapMode: 0
@@ -331,6 +605,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Run
       takeName: Spider_run
+      internalID: 0
       firstFrame: 0
       lastFrame: 16
       wrapMode: 0
@@ -359,6 +634,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk
       takeName: Spider_walk
+      internalID: 0
       firstFrame: 0
       lastFrame: 39
       wrapMode: 0
@@ -387,6 +663,7 @@ ModelImporter:
     - serializedVersion: 16
       name: TakeDamage
       takeName: Spider_Death
+      internalID: 0
       firstFrame: 0
       lastFrame: 27
       wrapMode: 0
@@ -418,6 +695,8 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -425,9 +704,14 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -438,10 +722,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 4
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -451,14 +738,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 1
   userData: 
   assetBundleName: 

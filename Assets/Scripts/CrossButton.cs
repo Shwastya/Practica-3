@@ -2,7 +2,12 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public enum InputType {NONE, UP, DOWN, LEFT, RIGHT}
+public enum InputType 
+{
+	NONE, UP, DOWN, LEFT, RIGHT,
+	UP_LEFT, UP_RIGHT,
+	DOWN_LEFT, DOWN_RIGHT
+}
 
 public class CrossButton : UIBehaviour
 {
@@ -17,13 +22,13 @@ public class CrossButton : UIBehaviour
 
 	Image image;
 	public InputType input;
-
 	public void update(bool pushed)
 	{
 		changeColor(pushed);
 
 		if(pushed)
 		{
+			
 			if (input1 == InputType.NONE ) input1 = input;
 			else if(input2 == InputType.NONE) input2 = input;
 		}
@@ -33,12 +38,40 @@ public class CrossButton : UIBehaviour
 			else if (input2 == input) input2 = InputType.NONE;
 		}
 	}
-
+	// Todo esto que viene es super cutre ya lo se
+	// pero no he sabido hacerlo de otra forma
 	void changeColor(bool pushed)
 	{
-		image.color = pushed ? new Color(0, 0, 0, 1) : new Color(0, 0, 0, 0.3f);
+		if (input == InputType.UP_LEFT)
+		{
+			keyDir("UP").color = colorFix(pushed);
+			keyDir("LEFT").color = colorFix(pushed);
+		}
+		else if (input == InputType.UP_RIGHT)
+		{
+			keyDir("UP").color = colorFix(pushed);
+			keyDir("RIGHT").color = colorFix(pushed);
+		}
+		else if (input == InputType.DOWN_LEFT)
+		{
+			keyDir("DOWN").color = colorFix(pushed);
+			keyDir("LEFT").color = colorFix(pushed);
+		}
+		else if (input == InputType.DOWN_RIGHT)
+		{
+			keyDir("DOWN").color = colorFix(pushed);
+			keyDir("RIGHT").color = colorFix(pushed);
+		}
+		else image.color = colorFix(pushed);
 	}
-
+	Color colorFix(bool c)
+	{
+		return c ? new Color(0, 0, 0, 1) : new Color(0, 0, 0, 0.3f);
+	}
+	Image keyDir(string dir)
+	{
+		return GameObject.Find(dir).GetComponent<Image>();
+	}
 	protected override void Start ()
 	{
 		image = GetComponent<Image>();
